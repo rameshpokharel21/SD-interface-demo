@@ -18,3 +18,17 @@ foreach (var companion in theFellowship)
 {
     companion.Contact("Nine companions… So be it! You shall be the Fellowship of the Ring.");
 }
+
+/*
+ //why My LINQ is not working here??
+var phoneCallUsers = from user in User.users
+                     where ContactService.Factory.ContainsKey(ContactMethod.PhoneCall)
+                     orderby user.Name
+                     select user;
+
+
+foreach (var user in phoneCallUsers)
+{
+    user.Contact("This call is very important to all the people. Please stay connected.");
+}
+*/

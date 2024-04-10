@@ -58,5 +58,7 @@ public class User
         new User("Gandalf", Location.Isengard, ContactMethod.Email) { IsFellowshipMember = true },
         new User("Saruman", Location.Isengard, ContactMethod.Text),
         new User("Sauron", Location.Mordor, ContactMethod.Text),
+        new User("Kris", Location.Rohan, ContactMethod.PhoneCall),
+        new User("Thomas", Location.Isengard, ContactMethod.PhoneCall){IsFellowshipMember= true}
     };
 }

@@ -2,5 +2,6 @@
 public enum ContactMethod
 {
     Text,
-    Email
+    Email,
+    PhoneCall
 }
